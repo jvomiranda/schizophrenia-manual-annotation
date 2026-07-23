@@ -141,11 +141,11 @@ This tag follows the pronoun person tag (1P, 2P, 3P) and is used to indicate plu
 
 This tag follows the number tag (Sg, Pl) and is applied only to referential third-person pronouns, excluding expletive and generic uses. First- and second-person pronouns do not receive this tag, as they are assumed to be predominantly referential.
 
-\[CS \[MS IO1PSgSUB am going \[ES to spend the rest of the day in bed   \[ES  crying to my stuffed animals and shaking with anxiety\]\]\] and \[CS \[MS my boyfriend is going  to wonder \[ES what heO3PSg**\+R**\-ASUB did wrong\]\]\] and \[CS \[MS IO1PSgSUB wish  \[ES IO1PSgSUB could tell himO3PSg**+R**\-AOBJ \[ES itO3PSg**+R**\+I-ASUB is not his fault \[ES IO1PSgSUB am like this\]\]\]\] but \[MS heO3PSg**+R**\-ASUB does not believe meO1PSgOBJ\]\].
+\[CS \[MS IO1PSgSUB am going \[ES to spend the rest of the day in bed   \[ES  crying to my stuffed animals and shaking with anxiety\]\]\] and \[CS \[MS my boyfriend is going  to wonder \[ES what heO3PSg\+R\-ASUB did wrong\]\]\] and \[CS \[MS IO1PSgSUB wish  \[ES IO1PSgSUB could tell himO3PSg+R\-AOBJ \[ES itO3PSg+R\+I-ASUB is not his fault \[ES IO1PSgSUB am like this\]\]\]\] but \[MS heO3PSg+R\-ASUB does not believe meO1PSgOBJ\]\].
 
-\[CS \[MS IO1PSgSUB have really bad depression\] but \[MS itO3PSg**+R**\+I-ASUB practically disappeared \[ES as IO1PSgSUB focused on my mental health \[ES without having \[ES to make sure \[ES my partner was also happy\]\]\]\]\]\].
+\[CS \[MS IO1PSgSUB have really bad depression\] but \[MS itO3PSg+R\+I-ASUB practically disappeared \[ES as IO1PSgSUB focused on my mental health \[ES without having \[ES to make sure \[ES my partner was also happy\]\]\]\]\]\].
 
-\[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\]\] felt like \[ES theyO3PPl**+R**\-ASUB could not stop and things like that\]\]
+\[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\]\] felt like \[ES theyO3PPl+R\-ASUB could not stop and things like that\]\]
 
 * **-R**
 
@@ -163,23 +163,23 @@ This tag follows the number tag (Sg, Pl) and is applied only to expletive pronou
 
 This tag follows the referentiality tag and is applied only to third-person "it" pronouns. It is used to distinguish the pronoun "it" from other singular third-person referential pronouns ("he" and "she").
 
-\[CS \[MS I have this DVD\] and \[MS itO3PSg+R**+I**\-ASUB really blows\]\]\!
+\[CS \[MS I have this DVD\] and \[MS itO3PSg+R\+I\-ASUB really blows\]\]\!
 
-\[CS \[MS SheO3PSg+R-ASUB said \[ES sheO3PSg+R-ASUB has been keeping this feeling forever\]\] but \[MS now sheO3PSg+R-ASUB wants \[ES to share itO3PSg+R**+I**\-AOBJ\]\]\].
+\[CS \[MS SheO3PSg+R-ASUB said \[ES sheO3PSg+R-ASUB has been keeping this feeling forever\]\] but \[MS now sheO3PSg+R-ASUB wants \[ES to share itO3PSg+R\+I\-AOBJ\]\]\].
 
-\[MS Today is a good day\], \[MSTRUNC-A isn’t itO3PSg+R**+I**\-ASUB\]?
+\[MS Today is a good day\], \[MSTRUNC-A isn’t itO3PSg+R\+I\-ASUB\]?
 
 * **\+A**
 
 This tag follows the \+I tag in referential "it" pronouns or the positive referentiality tag (+R), and therefore primarily applies to third-person pronouns. It always occurs after the positive referentiality tag, as it represents an anomalous attempt to establish reference.
 
-\[MSTRUNC+A having faith \[ES that things will get better \[ES despite what itO3PSg+R+I**+A**SUBES is in front of in life\]\]\].
+\[MSTRUNC+A having faith \[ES that things will get better \[ES despite what itO3PSg+R+I\+ASUBES is in front of in life\]\]\].
 
-\[CS \[MS is this toxic\] or \[MS can itO3PSg+R+I**+A**SUBMS be fixed?\] (no previous mention of the subject)
+\[CS \[MS is this toxic\] or \[MS can itO3PSg+R+I\+ASUBMS be fixed?\] (no previous mention of the subject)
 
-\[MS So IO1PSgSUB went to school the other day and talked to himO3PSg+R**+A**OBJMS\] (no previous mention of a possible referent to anchor "him")
+\[MS So IO1PSgSUB went to school the other day and talked to himO3PSg+R\+AOBJMS\] (no previous mention of a possible referent to anchor "him")
 
-\[CS \[MS My boyfriend and IO1PSgSUB are always together\] but \[MS IO1PSgSUB don’t know \[ES why theyO3PPl+R**+A**SUBES like meO1PSgOBJ so much\]\]\].
+\[CS \[MS My boyfriend and IO1PSgSUB are always together\] but \[MS IO1PSgSUB don’t know \[ES why theyO3PPl+R\+ASUBES like meO1PSgOBJ so much\]\]\].
 
 * **-A**
 
