@@ -2,6 +2,19 @@
 
 This repository contains the supplementary materials accompanying our study on linguistic patterns in schizophrenia. It provides the manually annotated corpus, annotation guidelines, preprocessing resources, analysis scripts, and experimental results used throughout the study. The repository is intended to facilitate transparency, reproducibility, and future research on computational linguistics, natural language processing, and psychiatric language analysis.
 
+## Authors
+
+This dataset and repository were developed by:
+
+- **João Victor Miranda e Silva**  
+  ORCID: https://orcid.org/0000-0002-0525-5307
+
+- **Cilene Rodrigues**  
+  ORCID: https://orcid.org/0000-0001-5324-7486
+
+- **E. Vital Brazil**  
+  ORCID: https://orcid.org/0000-0003-4982-3836
+
 ## Repository Overview
 
 The repository includes:
