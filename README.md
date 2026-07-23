@@ -4,8 +4,6 @@ This repository contains the supplementary materials accompanying our study on l
 
 ## Authors
 
-This dataset and repository were developed by:
-
 - **João Victor Miranda e Silva**  
   ORCID: https://orcid.org/0000-0002-0525-5307
 
