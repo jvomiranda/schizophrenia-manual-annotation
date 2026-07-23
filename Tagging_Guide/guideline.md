@@ -9,7 +9,7 @@ In summary, only text units containing a verbal predicate were considered senten
 
 \[CS \[MS I could play video games\] but \[MS actually pro can only play football\]\] **X**
 
-Each MS may contain an arbitrary number of ESs. Coordinations (CS) are annotated at the beginning of the first sentence within the coordination. In cases of multiple coordinations, \*\*CS\*\* tags are applied to sentence pairs, always preceding the first coordinated sentence of the pair, even when that sentence is itself embedded within another coordination. Truncated matrix and embedded sentences were annotated as TRUNC and further classified as either non-anomalous (TRUNC-A) or anomalous (TRUNC+A). Non-anomalous truncations correspond to canonical cases of ellipsis, whereas anomalous truncations represent ungrammatical applications of ellipsis operations.
+Each MS may contain an arbitrary number of ESs. Coordinations (CS) are annotated at the beginning of the first sentence within the coordination. In cases of multiple coordinations, CS tags are applied to sentence pairs, always preceding the first coordinated sentence of the pair, even when that sentence is itself embedded within another coordination. Truncated matrix and embedded sentences were annotated as TRUNC and further classified as either non-anomalous (TRUNC-A) or anomalous (TRUNC+A). Non-anomalous truncations correspond to canonical cases of ellipsis, whereas anomalous truncations represent ungrammatical applications of ellipsis operations.
 
 * **MS**
 
@@ -61,10 +61,10 @@ Coordinations (CS) are annotated at the beginning of the first sentence in each 
 **Pronominal domain**  
 No pronouns outside the scope of personal and possessive pronouns were annotated, including prepositioned pronouns (e.g., anaphoric pronouns were not annotated). The mandatory annotation categories in all cases are realization (O, N), person (1P, 2P, 3P), number (Sg, Pl), and either argument position (SUB, OBJ, PREP) or possessive pronoun (POSS). Referentiality (+R, \-R) was annotated only for third-person pronouns and generic pronouns (Gen), the latter always receiving the \-R tag. Pronominal anomaly (+A, \-A) was annotated only for pronouns that received a \+R or \-R tag. The sentential level in which the pronoun occurs (MS, ES) was annotated only for anomalous third-person pronouns and non-referential pronouns (e.g., generic or expletive pronouns). Pronouns were analyzed as instances of VP coordination (rather than pro) when multiple VPs shared the same tense, aux, and modal specification, with the pronominal subject overtly realized in the first VP and null in the subsequent VPs.
 
-Coordenação:  
+VP coordination:  
 \[MS SheO3PSg+R-ASUB puts her best clothes on and then does her hair beautifully\].
 
-Ocorrência de *pro*:  
+Occurrence of *pro*:  
 \[CS \[MS HeO3PSg+R-ASUB has very insane thoughts constantly\] and \[*pro*N3PSg+R-ASUB broke his TV during an anger episode last week\]\].
 
 Referential "it" pronouns (+R) received an additional annotation tag (+I). Only the null element pro was annotated; the null element PRO was not considered.
@@ -137,65 +137,65 @@ This tag follows the pronoun person tag (1P, 2P, 3P) and is used to indicate plu
 
 \[MS WeO1P**Pl**SUB have been discussing our relationship for the past few months\].
 
-* **\+R**
+* **+R**
 
 This tag follows the number tag (Sg, Pl) and is applied only to referential third-person pronouns, excluding expletive and generic uses. First- and second-person pronouns do not receive this tag, as they are assumed to be predominantly referential.
 
-\[CS \[MS IO1PSgSUB am going \[ES to spend the rest of the day in bed   \[ES  crying to my stuffed animals and shaking with anxiety\]\]\] and \[CS \[MS my boyfriend is going  to wonder \[ES what heO3PSg**\+R**\-ASUB did wrong\]\]\] and \[CS \[MS IO1PSgSUB wish  \[ES IO1PSgSUB could tell himO3PSg**\+R**\-AOBJ \[ES itO3PSg**\+R**\+I-ASUB is not his fault \[ES IO1PSgSUB am like this\]\]\]\] but \[MS heO3PSg**\+R**\-ASUB does not believe meO1PSgOBJ\]\].
+\[CS \[MS IO1PSgSUB am going \[ES to spend the rest of the day in bed   \[ES  crying to my stuffed animals and shaking with anxiety\]\]\] and \[CS \[MS my boyfriend is going  to wonder \[ES what heO3PSg**\+R**\-ASUB did wrong\]\]\] and \[CS \[MS IO1PSgSUB wish  \[ES IO1PSgSUB could tell himO3PSg**+R**\-AOBJ \[ES itO3PSg**+R**\+I-ASUB is not his fault \[ES IO1PSgSUB am like this\]\]\]\] but \[MS heO3PSg**+R**\-ASUB does not believe meO1PSgOBJ\]\].
 
-\[CS \[MS IO1PSgSUB have really bad depression\] but \[MS itO3PSg**\+R**\+I-ASUB practically disappeared \[ES as IO1PSgSUB focused on my mental health \[ES without having \[ES to make sure \[ES my partner was also happy\]\]\]\]\]\].
+\[CS \[MS IO1PSgSUB have really bad depression\] but \[MS itO3PSg**+R**\+I-ASUB practically disappeared \[ES as IO1PSgSUB focused on my mental health \[ES without having \[ES to make sure \[ES my partner was also happy\]\]\]\]\]\].
 
-\[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\]\] felt like \[ES theyO3PPl**\+R**\-ASUB could not stop and things like that\]\]
+\[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\]\] felt like \[ES theyO3PPl**+R**\-ASUB could not stop and things like that\]\]
 
-* **\-R**
+* **-R**
 
 This tag follows the number tag (Sg, Pl) and is applied only to expletive pronouns (e.g., "it" and "there") and pronouns used with generic referents (e.g., pronouns used to refer to "anyone").
 
-\[MS YouO2PSg**\-R**\-AGenSUBMS never know \[ES what is inside a secret box\]\].
+\[MS YouO2PSg-R\-AGenSUBMS never know \[ES what is inside a secret box\]\].
 
-\[MS ItO3PSg**\-R**\-AExpSUBMS is raining again today\].
+\[MS ItO3PSg\-R\-AExpSUBMS is raining again today\].
 
-\[MS ThereO3PSg**\-R**\-AExpSUBMS is a boy in my class \[ES that IO1PSgSUB really like\]\].
+\[MS ThereO3PSg\-R\-AExpSUBMS is a boy in my class \[ES that IO1PSgSUB really like\]\].
 
-\[MS ThereO3PPl**\-R**\-AExpSUBMS are lots of things \[ES IO1PSgSUB want \[ES to discuss with my friends\]\]\].
+\[MS ThereO3PPl\-R\-AExpSUBMS are lots of things \[ES IO1PSgSUB want \[ES to discuss with my friends\]\]\].
 
 * **\+I**
 
 This tag follows the referentiality tag and is applied only to third-person "it" pronouns. It is used to distinguish the pronoun "it" from other singular third-person referential pronouns ("he" and "she").
 
-\[CS \[MS I have this DVD\] and \[MS itO3PSg+R**\+I**\-ASUB really blows\]\]\!
+\[CS \[MS I have this DVD\] and \[MS itO3PSg+R**+I**\-ASUB really blows\]\]\!
 
-\[CS \[MS SheO3PSg+R-ASUB said \[ES sheO3PSg+R-ASUB has been keeping this feeling forever\]\] but \[MS now sheO3PSg+R-ASUB wants \[ES to share itO3PSg+R**\+I**\-AOBJ\]\]\].
+\[CS \[MS SheO3PSg+R-ASUB said \[ES sheO3PSg+R-ASUB has been keeping this feeling forever\]\] but \[MS now sheO3PSg+R-ASUB wants \[ES to share itO3PSg+R**+I**\-AOBJ\]\]\].
 
-\[MS Today is a good day\], \[MSTRUNC-A isn’t itO3PSg+R**\+I**\-ASUB\]?
+\[MS Today is a good day\], \[MSTRUNC-A isn’t itO3PSg+R**+I**\-ASUB\]?
 
 * **\+A**
 
 This tag follows the \+I tag in referential "it" pronouns or the positive referentiality tag (+R), and therefore primarily applies to third-person pronouns. It always occurs after the positive referentiality tag, as it represents an anomalous attempt to establish reference.
 
-\[MSTRUNC+A having faith \[ES that things will get better \[ES despite what itO3PSg+R+I**\+A**SUBES is in front of in life\]\]\].
+\[MSTRUNC+A having faith \[ES that things will get better \[ES despite what itO3PSg+R+I**+A**SUBES is in front of in life\]\]\].
 
-\[CS \[MS is this toxic\] or \[MS can itO3PSg+R+I**\+A**SUBMS be fixed?\] (sem menção prévia ao assunto)
+\[CS \[MS is this toxic\] or \[MS can itO3PSg+R+I**+A**SUBMS be fixed?\] (no previous mention of the subject)
 
-\[MS So IO1PSgSUB went to school the other day and talked to himO3PSg+R**\+A**OBJMS\] (sem menção prévia a um possível referente para “him”)
+\[MS So IO1PSgSUB went to school the other day and talked to himO3PSg+R**+A**OBJMS\] (no previous mention of a possible referent to anchor "him")
 
-\[CS \[MS My boyfriend and IO1PSgSUB are always together\] but \[MS IO1PSgSUB don’t know \[ES why theyO3PPl+R**\+A**SUBES like meO1PSgOBJ so much\]\]\].
+\[CS \[MS My boyfriend and IO1PSgSUB are always together\] but \[MS IO1PSgSUB don’t know \[ES why theyO3PPl+R**+A**SUBES like meO1PSgOBJ so much\]\]\].
 
-* **\-A**
+* **-A**
 
 This tag follows the \+I tag in referential "it" pronouns or the referentiality tag (+R, \-R), and therefore applies only to third-person pronouns.
 
-About selfharming \[CS \[MS iO1PSgSUB genuinely have always felt that line of \[MS “IO1PSgSUB am not an addict\]\]; \[MS iO1PSgSUB can quit \[ESTRUNC-A when iO1PSgSUB want to\]\], \[MS iO1PSgSUB just have not yet.\]\]” but \[CS \[MS maybe that is \[ES what makes itO3PSg+R+I**\-A**OBJ an addiction\]\]\] and \[MS iO1PSgSUB just do not know\]\]
+About selfharming \[CS \[MS iO1PSgSUB genuinely have always felt that line of \[MS “IO1PSgSUB am not an addict\]\]; \[MS iO1PSgSUB can quit \[ESTRUNC-A when iO1PSgSUB want to\]\], \[MS iO1PSgSUB just have not yet.\]\]” but \[CS \[MS maybe that is \[ES what makes itO3PSg+R+I\-AOBJ an addiction\]\]\] and \[MS iO1PSgSUB just do not know\]\]
 
-\[CS \[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\] felt like \[ES theyO3PPl+R**\-A**SUB could not stop and things like that\]\]\]
+\[CS \[MS IO1PSgSUB have always read stories and heard about \[ES how people \[ES who self harm\] felt like \[ES theyO3PPl+R\-ASUB could not stop and things like that\]\]\]
 
-\[CS \[MS And IO1PSgSUB wish \[ES IO1PSgSUB could work with my anxiety \[ES because IO1PSgSUB know \[ES itO3PSg-R**\-A**ExpSUBES is all my fault \[ES IO1PSgSUB do not have any friends \[ES because my anxiety pushes everyone away\]\]\]\] But \[MS nothing helps\]\].
+\[CS \[MS And IO1PSgSUB wish \[ES IO1PSgSUB could work with my anxiety \[ES because IO1PSgSUB know \[ES itO3PSg-R\-AExpSUBES is all my fault \[ES IO1PSgSUB do not have any friends \[ES because my anxiety pushes everyone away\]\]\]\] But \[MS nothing helps\]\].
 
-\[CS \[MS IO1PSgSUB know this is long\]  but \[MS IO1PSgSUB feel like \[ES thereO3PSg-R**\-A**ExpSUBES is so much detail \[ES to include here\]\]
+\[CS \[MS IO1PSgSUB know this is long\]  but \[MS IO1PSgSUB feel like \[ES thereO3PSg-R\-AExpSUBES is so much detail \[ES to include here\]\]
 
-\[MS at the beginning of last year, sheO3PSg+R**\-A**SUB got a new job and had training in a different state for about a month\]. (menção prévia de um referente para “she”)
+\[MS at the beginning of last year, sheO3PSg+R\-ASUB got a new job and had training in a different state for about a month\]. (presence of a previous mention of a referent to anchor "she")
 
-\[MS You never know \[ES what to expect from herO3PSg+R**\-A**OBJ\]\]. (menção prévia de um referente para “her” e “you” usado de forma genérica.
+\[MS You never know \[ES what to expect from herO3PSg+R\-AOBJ\]\]. (previous mention of a possible referent to anchor "her")
 
 * **Exp**
 
