@@ -1,0 +1,60 @@
+External evaluator's review of the manual annotation,
+,
+Posts reviewed,25
+Total tags,2295
+Pronoun tags,959
+Sentence tags,1336
+Mean tags per post,"91,80"
+SD of tags per post,"48,69"
+Median tags per post,80
+Fewest tags in a post,30
+Most tags in a post,175
+,
+Evaluator comments (all),93
+"Confirmations on ""sem problema"" posts (counted as 0)",0
+Disagreements,60
+Comments not counted as disagreements,28
+Mean disagreements per post,"2,40"
+SD of disagreements per post,"3,30"
+Median disagreements per post,1
+Posts with no disagreement,6
+Most disagreements in one post,15
+Disagreements per 100 tags,"2,61"
+,
+Raw agreement,"97,4%"
+"Raw agreement, 95% CI lower (Wilson)","96,6%"
+"Raw agreement, 95% CI upper (Wilson)","98,0%"
+Mean agreement per post,"97,0%"
+Lowest agreement in a post,"88,0%"
+Distinct tag labels,67
+"Chance agreement (Pe, from the distribution of tag labels)","0,158"
+Approximate Cohen's kappa,"0,969"
+"Kappa, 95% CI lower","0,961"
+"Kappa, 95% CI upper","0,977"
+Brennan–Prediger kappa,"0,973"
+,
+Disagreements by type,
+Type,Count
+Clause segmentation/bracketing,0
+Pronoun referential anomaly,0
+Expletive vs. referential pronoun,0
+Generic vs. referential pronoun,0
+Truncation/anomaly of a clause,0
+Extra or missing tag/bracket,0
+Missing clause,0
+Clause type (MS vs ES),0
+Total,0
+,
+"Comments not counted, by category",
+Category,Count
+Query,0
+Register remark,0
+Grammaticality remark,0
+Wording correction,0
+Typo in the post,0
+Agreement,0
+Uncertainty,0
+Total,0
+,
+Method,
+"The external evaluator reviewed 25 annotated posts and left comments on the annotations. I treated each comment as one candidate disagreement. A comment was counted as a disagreement only when the evaluator stated or clearly implied that an annotation should change (a wrong label, a wrong clause structure, a missing or extra tag, or a missing bracket). Repeated pointers such as ""See previous comment"" were counted separately, because each refers to a different tag. Comments that did not contest an annotation were not counted: remarks on the post author's grammar, wording or register, a typo in the post, agreement or uncertainty, and clarification queries in which the evaluator asked about a tag without stating that it was wrong. Posts which held a single comment confirming the annotation counted as containing no disagreements. Tags were counted with the regular expressions used in the analysis code (pronoun tags and sentence brackets). Because the evaluator reviewed existing annotations rather than annotating the posts independently, kappa is approximate: chance agreement was estimated from the distribution of the 67 tag labels, assuming both annotators would use them in the same proportions. Agreement refers to the annotation before disagreements were resolved.",
